@@ -5,8 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello</title>
+    <h1>Hello this is my first day in IncubXperts</h1>
+    <style>
+      body {
+        margin: 20px;
+      }
+      h1 {
+        text-align: center;
+        color: brown;
+        text-shadow: 2px 1px black;
+      }
+      input {
+        width: 200px;
+        display: inline-block;
+        margin: 15px;
+      }
+
+      .imageContainer {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+      }
+
+      .btn {
+        background-color: whitesmoke;
+        background-color: #04aa6d;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        width: 150px;
+        cursor: pointer;
+      }
+      .btn.hover {
+        color: blue;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #04aa6d;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello this is my first day in IncubXperts</h1>
+    <form>
+      <div class="container">
+        <h1>Login Form</h1>
+
+        <label><b>User Name</b></label>
+        <input type="text" placeholder="Enter Full name" /><br />
+        <label><b>Password </b></label>
+        <input type="password" value="" placeholder="Enter password" /><br />
+        <input type="button" value="submit" class="btn" />
+      </div>
+    </form>
   </body>
 </html>
